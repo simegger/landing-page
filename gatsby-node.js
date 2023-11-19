@@ -6,7 +6,9 @@ exports.createPages = async ({ actions, reporter }) => {
   // Define a template for blog post
   const articlePost = path.resolve("./src/templates/article-post.js")
 
-  const response = await fetch("http://127.0.0.1:1337/api/articles?populate=*")
+  const response = await fetch(
+    `${process.env.STRAPI_API_URL}/api/articles?populate=*`
+  )
   const articles = await response.json()
 
   if (articles.data.length > 0) {
