@@ -20,13 +20,6 @@
 }
 
 .heroWrapper {
-    /*
-    transform: scale(0.713333, 0.713333) translate(568px, -119.593px);
-    left: 381px;
-    top: 37px;
-    width: 736px;
-    height: 775px;
-    */
     position: absolute;
     right: 20rem;
     top: 3rem;
@@ -37,7 +30,17 @@
     width: 34rem;
     position: relative;
     z-index: 100;
+
+    @media (max-width: 870px) {
+        height: unset;
+        width: 100%;
+    }
 }
+
+.heroWrapperSmall img {
+    margin: auto;
+}
+
 .textWrapper {
     padding: 90px 40px;
 }
@@ -50,4 +53,15 @@
     margin-left: 12vw;
     margin-top: 10rem;
     display: inline-block;
+
+    @media (max-width: 870px) {
+        width: 30vw;
+        margin-left: unset;
+        margin-top: unset;
+        width: 100%;
+        display: inline-block;
+        width: 100%;
+        height: unset;
+        padding-bottom: 24px;
+    }
 }

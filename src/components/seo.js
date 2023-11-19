@@ -19,7 +19,7 @@ const Seo = ({ seo = {} }) => {
   const fullSeo = { ...defaultSeo }
 
   // Add site name to title
-  fullSeo.metaTitle = `${fullSeo.metaTitle} | ${siteName}`
+  fullSeo.metaTitle = `${seo.metaTitle} | ${siteName}`
 
   const getMetaTags = () => {
     const tags = []
