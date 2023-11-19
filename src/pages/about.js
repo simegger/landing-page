@@ -7,7 +7,7 @@ import { fetcher } from "../api/api"
 
 const AboutPage = () => {
   const { data } = useSWR(
-    `${process.env.STRAPI_API_URL}/api/about?populate=*`,
+    `${process.env.GATSBY_STRAPI_API_URL}/api/about?populate=*`,
     fetcher
   )
 

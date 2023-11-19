@@ -10,7 +10,7 @@ const ArticlePage = () => {
   const articleId = pathname.replace("/article/", "")
 
   const { data } = useSWR(
-    `${process.env.STRAPI_API_URL}/api/articles?populate=*`,
+    `${process.env.GATSBY_STRAPI_API_URL}/api/articles?populate=*`,
     fetcher
   )
   if (!data) return null

@@ -8,7 +8,7 @@ import * as styles from "./index.module.css"
 
 const IndexPage = () => {
   const { data } = useSWR(
-    `${process.env.STRAPI_API_URL}/api/articles?populate=*`,
+    `${process.env.GATSBY_STRAPI_API_URL}/api/articles?populate=*`,
     fetcher
   )
 
@@ -48,7 +48,7 @@ const IndexPage = () => {
         <div className={styles.heroWrapper}>
           <img
             alt="Cool"
-            src={`${process.env.STRAPI_API_URL}/uploads/jessi_f4cc95b185.jpg`}
+            src={`${process.env.GATSBY_STRAPI_API_URL}/uploads/jessi_f4cc95b185.jpg`}
           />
         </div>
       </div>

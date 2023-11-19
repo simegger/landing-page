@@ -9,7 +9,7 @@ const Navbar = () => {
         <Link to="/" className="text-xl font-medium">
           <img
             className={styles.logo}
-            src={`${process.env.STRAPI_API_URL}/uploads/logo_b27ecce0d5.png`}
+            src={`${process.env.GATSBY_STRAPI_API_URL}/uploads/logo_b27ecce0d5.png`}
             alt="logo"
           ></img>
         </Link>

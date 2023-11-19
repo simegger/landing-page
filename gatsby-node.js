@@ -7,7 +7,7 @@ exports.createPages = async ({ actions, reporter }) => {
   const articlePost = path.resolve("./src/templates/article-post.js")
 
   const response = await fetch(
-    `${process.env.STRAPI_API_URL}/api/articles?populate=*`
+    `${process.env.GATSBY_STRAPI_API_URL}/api/articles?populate=*`
   )
   const articles = await response.json()
 
