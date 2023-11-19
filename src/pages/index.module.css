@@ -1,0 +1,53 @@
+.mainSection {
+    position: relative;
+    background-color: white;
+}
+
+.heroImage {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: auto;
+    top: 0px;
+    left: 0px;
+    background-image: url(http://127.0.0.1:1337/uploads/jessi_addf920247.jpg);
+}
+
+.heroWrapper img {
+    max-width: 100%;
+    height: 92vh;
+}
+
+.heroWrapper {
+    /*
+    transform: scale(0.713333, 0.713333) translate(568px, -119.593px);
+    left: 381px;
+    top: 37px;
+    width: 736px;
+    height: 775px;
+    */
+    position: absolute;
+    right: 20rem;
+    top: 3rem;
+}
+
+.heroTextWrapper {
+    height: 100vh;
+    width: 34rem;
+    position: relative;
+    z-index: 100;
+}
+.textWrapper {
+    padding: 90px 40px;
+}
+
+.heroText {
+    background-color: rgba(251,247,245,1);
+    box-sizing: border-box;
+    height: 67vh;
+    width: 30vw;
+    margin-left: 12vw;
+    margin-top: 10rem;
+    display: inline-block;
+}
