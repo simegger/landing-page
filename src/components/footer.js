@@ -6,7 +6,9 @@ const Footer = () => {
   return (
     <footer className="mt-16 bg-neutral-100 py-8 text-neutral-700">
       <div className="container">
-        <p>Copyright {currentYear}</p>
+        <a href="https://authentischsein-coaching.de/">
+          Copyright {currentYear} Jessics Seidel
+        </a>
       </div>
     </footer>
   )

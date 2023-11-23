@@ -30,19 +30,21 @@ const IndexPage = () => {
           <div className={cx(styles.heroText, "shadow-md")}>
             <div className="pl-10 pr-10 pt-10 lg:pt-20">
               <span class="text-left font-mono text-xs font-light text-teal-600">
-                GROUNDED IN YOUR ESSENCE.
+                FINDE ZU DIR SELBST.
               </span>
-              <div class="mt-6 font-sans text-4xl lg:text-6xl">soulwork</div>
+              <div class="text-bold mt-6 font-sans text-3xl lg:text-4xl">
+                AuthentischSein.
+              </div>
               <div class="mt-3">
-                Erkenne dein tiefstes Potenzial, bringe deine 'Seelenessenz' in
-                die Welt und werde mit deinem Wirken für deine Soulkundinnen
-                sichtbar?
+                Wie du innerhalb von 90 Tagen zu der authentischen und mutigen
+                Frau wirst, die Du innerlich schon immer sein wolltest und deine
+                Ängste und Selbstzweifel über Bord wirfst. 🎇
               </div>
               <button
                 onClick={() => scrollTo("video")}
                 class="mt-6 bg-teal-800 px-4 py-2 font-bold text-white hover:bg-teal-500 md:mt-12"
               >
-                Mehr erfahren
+                Zur Online-Schulung
               </button>
             </div>
           </div>
