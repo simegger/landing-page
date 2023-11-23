@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="mt-16 bg-neutral-100 py-8 text-neutral-700">
       <div className="container">
         <a href="https://authentischsein-coaching.de/">
-          Copyright {currentYear} Jessics Seidel
+          Copyright {currentYear} Jessica Seidel
         </a>
       </div>
     </footer>
