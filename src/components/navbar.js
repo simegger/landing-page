@@ -16,7 +16,7 @@ const Navbar = () => {
         {/* <div className="flex flex-row items-baseline justify-end text-white">
           Buche jetzt ein unverbindliches Erstgespräch 🎉
         </div> */}
-        <div className="flex flex-row items-baseline justify-end text-center">
+        <div className="invisible flex flex-row items-baseline justify-end text-center min-[450px]:visible">
           <button
             type="button"
             onClick={() =>
