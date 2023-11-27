@@ -52,13 +52,13 @@ const IndexPage = () => {
         <div className={cx(styles.heroWrapper, "hidden md:block")}>
           <img
             alt="Cool"
-            src={`${process.env.GATSBY_STRAPI_API_URL}/uploads/jessi_f4cc95b185.jpg`}
+            src={`${process.env.GATSBY_STRAPI_API_URL}/uploads/jessi_b138ae670f.jpg`}
           />
         </div>
         <div className={cx(styles.heroWrapperSmall, "block md:hidden")}>
           <img
             alt="Cool"
-            src={`${process.env.GATSBY_STRAPI_API_URL}/uploads/jessi_f4cc95b185.jpg`}
+            src={`${process.env.GATSBY_STRAPI_API_URL}/uploads/jessi_b138ae670f.jpg`}
           />
         </div>
       </div>
