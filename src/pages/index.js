@@ -42,7 +42,7 @@ const IndexPage = () => {
               </div>
               <button
                 onClick={() => scrollTo("video")}
-                class="mt-6 bg-teal-800 px-4 py-2 font-bold text-white hover:bg-teal-500 md:mt-12"
+                class="mt-6 bg-green-900 px-4 py-2 font-bold text-white hover:bg-teal-500 md:mt-12"
               >
                 Zur Online-Schulung
               </button>

@@ -4,7 +4,7 @@ import * as styles from "./navbar.module.css"
 
 const Navbar = () => {
   return (
-    <header className="bg-teal-800">
+    <header className="bg-green-900">
       <nav className="container flex flex-row items-baseline justify-between py-6">
         <Link to="/" className="text-xl font-medium">
           <img
